@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    android:orientation="vertical"
+    tools:context=".ProgressBarActivity">
+
+    <com.example.customprogressbar.CustomProgressViewGroup
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.3"
+        android:id="@+id/animationView">
+
+        <com.example.customprogressbar.CustomWaveView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+        <!--child views added through code-->
+
+    </com.example.customprogressbar.CustomProgressViewGroup>
+
+    <!--Framelayout to show selected fragment-->
+
+    <FrameLayout
+        android:id="@+id/frame_layout_fragment_container"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" />
+
+</LinearLayout>
