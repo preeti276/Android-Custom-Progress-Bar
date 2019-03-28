@@ -35,7 +35,9 @@ This source code will help you create a custom progress bar as shown below for y
   <li>No need to make any changes in ProgressBarActivity which acts like your MainActivity.</li>
  </ul>
  
- <h5>NOTE</h5>
+ OR follow the todo in the code, important steps are also mentioned there.
+ 
+ <h4>NOTE</h4>
   Uncomment the fill color code in <a href = "https://github.com/preeti276/Android-Custom-Progress-Bar/blob/master/app/src/main/java/com/example/customprogressbar/CustomWaveView.java"></a> CustomWaveView if you need the view with color as shown below. Though the recommended way is to use is without fill loop (as shown above) so as to improve the efficiency since the fill color tends to slow down the app performance. 
    
  <p align="center">
