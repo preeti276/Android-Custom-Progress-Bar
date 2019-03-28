@@ -26,7 +26,7 @@ This source code will help you create a custom progress bar as shown below for y
   
   
   <a href = "https://github.com/preeti276/Android-Custom-Progress-Bar/blob/master/app/src/main/java/com/example/customprogressbar/FragmentView.java"></a>FragmentView: This is a default view for fragment. You can change the view and designs, and even add new fragments to display.
-  <br>n
+  <br>
   
   <h3> All you need to do </h3>
   <ul>
