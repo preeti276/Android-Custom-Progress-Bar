@@ -62,7 +62,7 @@ public class ProgressBarActivity extends AppCompatActivity implements FragmentVi
             GradientDrawable rect = new GradientDrawable();
             rect.setShape(GradientDrawable.RECTANGLE);
             rect.setCornerRadius(dpToPx(4));
-            rect.setColor(Color.parseColor("#FFFFFF"));
+            rect.setColor(Color.parseColor("#E1E3EF"));
             textView.setBackground(rect);
 
             ImageView imageView = (ImageView) linearLayout.findViewById(R.id.imageView);
