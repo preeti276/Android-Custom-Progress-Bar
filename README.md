@@ -29,13 +29,13 @@ This source code will help you create a custom progress bar as shown below for y
   <br>n
   
   <h3> All you need to do </h3>
-  <li>
-  <ul>Clone/download the source code</ul>
-  <ul>Put the images of icon in the res/drawable folder with their names as "icon1", "icon2", etc.</ul>
-  <ul>Put the correspoding text in res/values/strings.xml folder with names as "text1", "text2", etc.</ul>
-  <ul>Add data/design to fragments if required. </ul>
-  <ul>No need to make any changes in ProgressBarActivity which acts like your MainActivity.</ul>
- </li><br>
+  <ul>
+  <li>Clone/download the source code</li>
+  <li>Put the images of icon in the res/drawable folder with their names as "icon1", "icon2", etc.</li>
+  <li>Put the correspoding text in res/values/strings.xml folder with names as "text1", "text2", etc.</li>
+  <li>Add data/design to fragments if required. </li>
+  <li>No need to make any changes in ProgressBarActivity which acts like your MainActivity.</li>
+ </ul><br>
  
  <h5>NOTE<h5>
   Uncomment the fill color code in <a href = "https://github.com/preeti276/Android-Custom-Progress-Bar/blob/master/app/src/main/java/com/example/customprogressbar/CustomWaveView.java"></a> CustomWaveView if you need the view with color as shown above. Though the recommended way is to use is without fill loop as shown below so as to improve the effeciency since the fill color tends to slow down the app performance. 
